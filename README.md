@@ -12,7 +12,9 @@ The dataset that I used can be found in Kaggle with this [link](https://www.kagg
 ## Result
 * The most crowded area has the most number of the hotel, furthermore, even though tourist attractions not exactly located in the densest area it still relatively close.
 * Be in a crowded place and in the middle of the city, doesn't make Civil Line neighborhood the most expensive area yet the most expensive neighborhood is Bagru Ansik which has an International Airport in the area
+* The epsilon(radius) of the DBSCAN is 1.5 Kilometer by that epsilon it can show 16 Hotel Clusters that determined by Hotel Density, The densest place is in the city center of Jaipur and the second one gathered around Jaipur International Airport
 * The Autocorrelation Spatial shows 0.09990371991295081 which means there is a slight correlation between location and the price of the hotel.
 
 ## Dashboard App using Streamlit
-You can see the result of this project [here](https://share.streamlit.io/ekassuhendar/jaipur-tourism-geospatial-analysis/main/run.py).
+I put the result of this project in Dashboard using Streamlit, so the user can use the interactive map directly. 
+You can see the Dashboard of this project [here](https://share.streamlit.io/ekassuhendar/jaipur-tourism-geospatial-analysis/main/run.py).
